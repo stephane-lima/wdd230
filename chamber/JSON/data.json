@@ -1,0 +1,76 @@
+{
+	"companies": [
+		{
+			"name": "Impar Seguros",
+			"address": "Avenida 5 de Julho",
+			"phone": "(+238) 800 20 20",
+			"siteurl": "https://www.impar.cv",
+			"image": "",
+			"membership": ""
+		},
+		{
+			"name": "Urgimed, Lda",
+			"address": "Rua Argelia, Mindelo",
+			"phone": "(+238) 230 01 70",
+			"siteurl": "urgimed.cv",
+			"image": "",
+			"membership": ""
+		},
+		{
+			"name": "Vivo Energy Cabo Verde",
+			"address": "Av. Amilcar Cabral, Caixa Postal 4 Mindelo, Vicente",
+			"phone": "(+238) 230 76 00",
+			"siteurl": "https://www.vivoenergy.com",
+			"image": "",
+			"membership": ""
+		},
+		{
+			"name": "CVMovel",
+			"address": "Rua de Lisboa, Mindelo, São Vicente",
+			"phone": "(+238) 262 25 09",
+			"siteurl": "https://www.cvmovel.cv",
+			"image": "",
+			"membership": ""
+		},
+		{
+			"name": "FIC - Feira International de Cabo Verde",
+			"address": "Rua Angola 10 RC, Cidade do Mindelo (Centro), São Vicente, Cabo Verde C.P 249",
+			"phone": "(+238) 232 18 22",
+			"siteurl": "https://www.fic.cv",
+			"image": "",
+			"membership": ""
+		},
+		{
+			"name": "BCN - Banco Cabo Verdiano de Negocios",
+			"address": "Rua N° 1, Monte Sossego, Mindelo, São Vicente",
+			"phone": "(+238) 260 49 20",
+			"siteurl": "https://www.bcn.cv",
+			"image": "",
+			"membership": ""
+		},
+		{
+			"name": "Moave",
+			"address": "Avenida Marginal, Mindelo",
+			"phone": "(+238) 230 31 00",
+			"siteurl": "https://www.moave.cv",
+			"image": "",
+			"membership": ""
+		},
+		{
+			"name": "Turiscar",
+			"address": "Rua Renato Cardoso, Mindelo São Vicente, CP:1009 Mindelo São Vicente, 2110",
+			"phone": "(+238) 232 16 26",
+			"siteurl": "https://turiscar.cv",
+			"image": "",
+			"membership": ""
+		},
+		{
+			"name": "Enacol",
+			"address": "Largo John Miller´s,, Rua de Morguinho, Mindelo 0001",
+			"phone": "(+238) 230 60 60",
+			"siteurl": "https://www.enacol.cv",
+			"image": "",
+			"membership": ""
+		}
+	]
+}
