@@ -147,15 +147,59 @@ main {
 }
 
 main div {
-    background-color: grey;
+    background-color: #FCBF49;
+    color: #003049;
+    padding: 10px;
+    text-align: center;
+}
+
+main img {
+    width: 100%;
+    height: 100%;
 }
 
 main div p {
     padding-left: 10px;
 }
 
+#website-title {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+    padding: 10px;
+    color: #FCBF49;
+    font-size: 1.2em;
+    /* text-align: right;
+    padding-top: 400px; */
+}
+
+#hero {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+}
+
+#join-chamber-button {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: #003049;
+    text-align: center;
+    margin-top: 500px;
+    padding: 10px;
+    width: 150px;
+    justify-self: right;
+    margin-right: 10px;
+    border-radius: 10px;
+    
+}
+
+#join-chamber-button a {
+    text-decoration: none;
+    color: #FCBF49;
+}
+
 main div:nth-child(6) {
-    background-color: grey;
+    background-color: #FCBF49;
     display: none;  
 }
 
