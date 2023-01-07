@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital,wght@1,700&display=swap');
+
+body {
+    max-width: 650px;
+    margin: 0 auto;
+    font-family: Montserrat, Arial, sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 125px auto;
+    background-color: #003049;
+    color: #FCBF49;
+    padding: 15px 30px;
+    border-radius: 30px;
+    /* box-shadow: 5px 5px 10px black; */
+}
+
+header img {
+    width: 125px;
+    /* height: 250px; */
+}
+
+header h1 {
+    font-family: "Open Sans", "Times New Roman", sans-serif;
+    margin-left: 15px;
+    align-self: center;
+    text-align: center;
+}
+
+main {
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+main h1 {
+    color: #118AB2;
+    margin-bottom: 0;
+}
+
+main p {
+    margin-top: 0;
+}
+
+main ul li {
+    /* font-size: large; */
+    font-size: 19px;
+}
+
+footer {
+    background-color: #003049;
+    color: #FCBF49;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    font-size: 18px;
+    /* box-shadow: 5px 5px 10px black; */
+}
+
+#lastmodifieddate {
+    margin-top: -10px
+}
