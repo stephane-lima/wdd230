@@ -25,6 +25,7 @@ main section {
     border: 2px solid #bbb;
     text-align: center;
     padding: 16px;
+    text-align: left;
 }
 
 main section h2 {
@@ -32,10 +33,16 @@ main section h2 {
     padding: 20px;
 }
 
+.company_name {
+    margin-top: 40px;
+    margin-bottom: -15px;
+    font-size: 19px;
+}
+
 main section p {
     margin-top: 35px;
-    margin-bottom: 20px;
-    font-size: 18px;
+    margin-bottom: 10px;
+    font-size: 19px;
 }
 
 main h2 {
