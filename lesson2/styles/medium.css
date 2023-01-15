@@ -1,0 +1,14 @@
+@media only screen and (min-width: 37.5em) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    #vertical_hero_imgage {
+        display: none;
+    }
+    #horizontal_hero_image {
+        display: block;
+    }
+    #last_column {
+        grid-column: 1/3;
+    }
+}
