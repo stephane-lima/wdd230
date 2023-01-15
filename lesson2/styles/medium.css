@@ -2,11 +2,11 @@
     main {
         grid-template-columns: 1fr 1fr;
     }
-    #vertical_hero_imgage {
-        display: none;
-    }
     #horizontal_hero_image {
         display: block;
+    }
+    #vertical_hero_imgage {
+        display: none;
     }
     #last_column {
         grid-column: 1/3;
