@@ -38,3 +38,13 @@ currentYearElem2.innerHTML = getCurrentYear();
 
 let todaysDayElem = document.getElementById('date');
 todaysDayElem.innerHTML = today();
+
+let dayOfWeek = new Date().getDay();
+console.log(dayOfWeek);
+
+if (dayOfWeek == "1" || dayOfWeek == "2") {
+    document.getElementById("banner").style.display = "block";
+}
+else {
+    document.getElementById("banner").style.display = "none";
+}
