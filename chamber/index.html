@@ -14,22 +14,23 @@
 <body>
     <p id="banner">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
     <header>
+        <!-- <a href="index.html"> -->
         <img id="site-logo" src="images/logo-long.png" alt="logo">
+        <!-- </a> -->
+        
         <h1>North</h1>
         <h2>Chamber of Commerce</h2>
         
-        <!-- <a href="https://facebook.com" target="_blank"> -->
-            <img id="facebook-logo" src="./images/facebook.png" alt="Facebook">
-        <!-- </a> -->
-        <!-- <a href="https://twitter.com" target="_blank"> -->
-            <img id="twitter-logo" src="./images/twitter.png" alt="LinkedIn">
-        <!-- </a> -->
+        <img id="facebook-logo" src="./images/facebook.png" alt="Facebook">
+
+        <img id="twitter-logo" src="./images/twitter.png" alt="LinkedIn">
+        
         <button id="menuButton">&#9776;</button>
         
         <nav id="primaryNav">
             <ul>
                 <li><a class="at" href="index.html">Home</a></li>
-                <li><a href="./discover.html">Discover</a></li>
+                <li><a href="discover.html">Discover</a></li>
                 <li><a href="./directory.html">Directory</a></li>
                 <li><a href="./join.html">Join</a></li>
                 <li><a href="./discover.html">Contact</a></li>
@@ -39,18 +40,17 @@
     </header>
 
     <main id="main-grid">
-        <!-- <div id="hero"> -->
-            <!-- <img id="hero" src="images/76f6c637-b6fc-4d5b-89cc-52e739af7389.jpg" alt="Porto Grande Bay"> -->
-            <!-- <img id="hero" src="images/wdd230-org.jpg" alt="WDD230 Image"> -->
-        <!-- </div> -->
+        
         <img id="hero" src="images/wdd230-org.jpg" alt="Golgotha" sizes="100vw"
                 srcset="images/wdd230-org-650.jpg 650w,
                         images/wdd230-org-950.jpg 875w,
                         images/Porto-Grande-Bay.jpg 1100w">
+        
         <div id="event">
             <p>Trade and Investment Conference</p>
             <p>The city of Mindelo, São Vicente, will host on the 28th and 29th of March, the first trade and investment conference between Cape Verde and Florida. The event aims to enhance investment opportunities and commercial relations between partners.</p>
         </div>
+
         <div id="weather">
             <p>Weather</p>
             <!-- <img src="" alt=""> -->
@@ -58,53 +58,56 @@
             <p>Partly Cloudy</p>
             <hr>
             <p id="wind-speed1">Wind Speed: <span id="wind-speed"></span> Km/h</p>
-            <p id="wind-chill1">Wind Chill: <span id="wind-chill"></span></p>
-            
+            <p id="wind-chill1">Wind Chill: <span id="wind-chill"></span></p>   
         </div>
+
         <div id="news">
             <p>News Release</p>
             <p>The North Chamber of Commerce (NCC) strengthens relations with Luxembourg. NCC has opened another door on the path of international cooperation, with the aim of strengthening and facilitating business relations in favor of member, this time with luxembourg economic operators</p>
         </div>
         
         <div id="spotlight-grid">
+
             <div id="spotlight1">
-                <!-- <p>Spolight 1</p> -->
                 <img src="images/logo_impar_01.jpg" alt="Impar Logo">
             </div>
+
             <div id="spotlight2">
-                <!-- <p>Spotlight 2</p> -->
                 <img src="images/Vivo-energy.jpg" alt="Impar Logo">
             </div>
+
             <div id="spotlight3">
-                <!-- <p>Spotlight 3</p> -->
                 <img src="images/309618777_767379058017695_4033808259920503781_n1.jpg" alt="Impar Logo">
             </div>
         </div>
+
         <div id="join">
             <p id="join-button"><a href="#">Join Us</a></p>
             <p>Discover how to join the chamber of commerce and how it will benefit your orgazinzation.</p>
         </div>
+
         <p id="website-title">North Chamber of Commerce</p>
-        <!-- <div> -->
-            <!-- <p id="join-chamber-button"><a href="#">Join the Chamber</a></p> -->
-        <!-- </div> -->
     </main>
+
     <footer>
         <div id="footer-grid">
             <div id="logo">
                 <img id ="footer-logo" src="images/logo-long.png" alt="North Chamber of Commerce Logo">
             </div>
+
             <div class="footer-section">
                 <p>North Chamber of Commerce</p>
                 <p>Rua Baltazar Lopes da Silva</p>
                 <p>São Vicente, Cape Verde</p>
             </div>
+
             <div class="footer-section">
                 <p>northchamber@gmail.org</p>
                 <p>+(238) 231-2566</p>
                 <p>Location Map</p>
             </div>
         </div>
+
         <div id="footer1">
             <hr>
             <p>&copy;<span id="year1"></span> North Chamber of Commerce</p>
@@ -112,12 +115,14 @@
             <p>WDD 230 Project</p>
             <p>Last Modification: <span id="lastmodifieddate1"></span></p>
         </div>
+
         <div id="footer2">
             <hr>
             <p>&copy;<span id="year2"></span> North Chamber of Commerce | Stéphane Lima | WDD 230 Project</p> 
             <p>Last Modification: <span id="lastmodifieddate2"></span></p>
         </div>
     </footer>
+    
     <script src="scripts/scripts.js"></script>
     <script src="scripts/windchill.js"></script>
 </body>
