@@ -41,3 +41,8 @@ tr:nth-child(odd) {
 .side-header {
     background-color: rgb(245,245,245);
 }
+
+caption {
+    caption-side: bottom;
+    padding: 8px;
+}
