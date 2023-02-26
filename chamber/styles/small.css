@@ -7,6 +7,8 @@
     margin: 0;
 }
 
+/* --------------------------- HEADER --------------------------------- */
+
 header {
     display: grid;
     grid-template-columns: repeat(15, 1fr);
@@ -92,6 +94,7 @@ header nav {
     color: #FCBF49;
 }
 
+/* ------------------------- NAVIGATION --------------------------- */
 
 nav ul {
     display: none;
@@ -173,6 +176,8 @@ main div p {
     padding-top: 400px; */
 }
 
+/* ------------------------------ INDEX PAGE -------------------------- */
+
 #hero {
     grid-column: 1/2;
     grid-row: 1/2;
@@ -235,6 +240,73 @@ main div:nth-child(6) {
 #spotlight3 {
     display: none;
 }
+
+/* ------------------------------ DISCOVERY PAGE -------------------------- */
+
+#discovery {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#discovery div {
+    margin: 10px 0;
+}
+
+/* ------------------------------ JOIN PAGE -------------------------- */
+
+#form {
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    max-width: 600px;
+}
+
+form label.top, form p {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+}
+
+form label input.submitBtn {
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 1rem 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+/* ------------------------------ FOOTER -------------------------- */
 
 footer {
     background-color: #003049;
