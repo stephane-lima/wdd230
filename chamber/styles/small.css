@@ -232,13 +232,30 @@ main div:nth-child(6) {
 }
 
 #spotlight1 {
-    background-color: #555;
+    /* background-color: #555; */
     grid-column: 1/2;
+    /* width: 100%; */
 }
-#spotlight2 {
-    background-color: #555;
+/* #spotlight1 img {
+    width: 100%;
+    height: 100%;
+} */
+/* #spotlight2 { */
+    /* background-color: #555; */
+    /* width: 100%; */
+/* } */
+/* #spotlight3 {
+    display: none;
+} */
+/* .sl-card { */
+    /* padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0; */
+/* } */
+.sl-card > p {
+    margin: 0.1rem;
 }
-#spotlight3 {
+.sl-card:nth-child(3) {
     display: none;
 }
 
@@ -249,24 +266,38 @@ main div:nth-child(6) {
 #windchill-grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 0;
+    /* margin-top: -50px; */
+    /* margin-bottom: -50px; */
+    margin-top: -20px;
 }
 #windchill-grid p {
     align-self: center;
+    text-align: left;
+    /* padding: 0; */
+}
+#windchill-grid figure {
+    align-self: center;
+    text-align: right;
+    padding: 0;
 }
 
 /* ------------------------------ DISCOVERY PAGE -------------------------- */
 
 #discovery {
     display: block;
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto;
+    align-self: center;
 }
 
 #discovery div {
-    margin: 10px 0;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #FCBF49;
+}
+
+#discovery img {
+    width: 100%;
 }
 
 /* ------------------------------ JOIN PAGE -------------------------- */
@@ -281,8 +312,8 @@ main div:nth-child(6) {
 
 #form {
     display: block;
-    margin: 30px auto;
-    width: 100%;
+    margin: 30px 15px;
+    /* width: 100%; */
     max-width: 450px;
     background: white;
     border-radius: 10px;
@@ -300,6 +331,7 @@ main div:nth-child(6) {
 #form form {
     padding: 0 40px;
     box-sizing: border-box;
+    /* margin: 2rem 0; */
 }
 
 
@@ -316,7 +348,7 @@ form label.top input, form label.top textarea {
     font-size: 1rem;
     border: solid 2px #2691d9;
     border-radius: 4px;
-    padding: .75rem;
+    padding: 0rem;
     color: #555;
     width: 100%;
     max-width: 20rem;
@@ -325,6 +357,7 @@ form label.top input, form label.top textarea {
 }
 
 form label.top textarea {
+    /* width: 100%; */
     height: 100px;
 }
 
@@ -358,10 +391,25 @@ form legend {
     color: #2691d9;
     margin: 0 1rem;
     padding: 0 .5rem;
-    font-size: 16px;
+    font-size: 17px;
 }
 
-#membership-description {
+#form section ul {
+    margin-left: -10px;
+    background-color: white;
+    font-size: 1rem;
+}
+
+#form section ul li{
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+
+#form section ul li span{
+    color: #2691d9;
+}
+
+.membership-description {
     display: block;
     margin-top: 15px;
     background-color: white;
@@ -375,7 +423,7 @@ input[type="submit"] {
     width: 100%;
     height: 50px;
     border: 1px solid;
-    background: #2691d9;
+    background: #003049;
     border-radius: 25px;
     font-size: 18px;
     color: white;
@@ -403,11 +451,22 @@ form label.top input:focus:invalid {
     border: red solid 2px;
 } */
 
-/* ----------------------------- DISCOVERY PAGE ------------------- */
+/* ----------------------------- DIRECTORY PAGE ------------------- */
+#directory-main {
+    margin: 15px 10px;
+    font-size: 18px;
+}
+
+.menu {
+    margin: 15px 30px;
+    text-align: center;
+}
 
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    column-gap: 10px;
+    row-gap: 10px;
     /* align-items: center; */
 }
 
@@ -415,22 +474,60 @@ form label.top input:focus:invalid {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #FCBF49;
+    /* color: #003049; */
+    margin: 0.1rem;
+	padding: 0.35rem;
+}
+
+.grid section > * {
+    margin: 0.1rem;
+}
+
+.grid section p:nth-child(2) {
+    display: none;
+}
+
+.grid section p {
+    padding: 0;
+    color: #003049;
 }
 
 .list {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    /* flex-direction: column; */
 }
 
 .list section {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr;
     margin: 0;
     padding: 0.25rem;
+    /* background-color: #FCBF49; */
+}
+
+.list section:nth-child(odd) {
+    background-color: #FCBF49;
+    color: #003049;
+}
+
+.list section > * {
+    margin: 5px 1rem;
 }
 
 .list section img {
     display: none;
+}
+
+/* .list section p {
+
+} */
+
+.list section a {
+    /* text-align: center;
+    align-self: center; */
+    /* text-decoration: none; */
+    color: #003049;
 }
 
 /* ------------------------------ FOOTER -------------------------- */

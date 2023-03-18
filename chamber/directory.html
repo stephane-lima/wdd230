@@ -4,27 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discover Page</title>
+    <title>Directory Page</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
     <link href="styles/normalize.css" rel="stylesheet">
     <link href="styles/small.css" rel="stylesheet">
     <link href="styles/medium.css" rel="stylesheet">
     <link href="styles/large.css" rel="stylesheet">
-    <!-- <link href="styles/prophet.css" rel="stylesheet"> -->
 </head>
 <body>
     <p id="banner">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
     <header>
+        <!-- <a href="index.html"> -->
         <img id="site-logo" src="images/logo-long.png" alt="logo">
+        <!-- </a> -->
+        
         <h1>North</h1>
         <h2>Chamber of Commerce</h2>
         
-        <!-- <a href="https://facebook.com" target="_blank"> -->
-            <img id="facebook-logo" src="./images/facebook.png" alt="Facebook">
-        <!-- </a> -->
-        <!-- <a href="https://twitter.com" target="_blank"> -->
-            <img id="twitter-logo" src="./images/twitter.png" alt="LinkedIn">
-        <!-- </a> -->
+        <img id="facebook-logo" src="./images/facebook.png" alt="Facebook">
+
+        <img id="twitter-logo" src="./images/twitter.png" alt="LinkedIn">
+        
         <button id="menuButton">&#9776;</button>
         
         <nav id="primaryNav">
@@ -32,69 +32,43 @@
                 <li><a class="at" href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="./directory.html">Directory</a></li>
-                <li><a href="./join.html">Join</a></li>
+                <li><a href="join.html">Join</a></li>
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
         <p id="date"></p>
     </header>
-    <main id="discovery">
-        <div>
-            <h3></h3>
-            <figure>
-                <img src="" alt="">
-                <figcaption></figcaption>
-            </figure>
+
+    <main id="directory-main">
+        <div class="menu">
+            <button id="grid">⏹️Grid</button>
+            <button id="list">📄List</button>
         </div>
-        <div>
-            <h3></h3>
-            <figure>
-                <img src="" alt="">
-                <figcaption></figcaption>
-            </figure>
-        </div>
-        <div>
-            <h3></h3>
-            <figure>
-                <img src="" alt="">
-                <figcaption></figcaption>
-            </figure>
-        </div>
-        <div>
-            <h3></h3>
-            <figure>
-                <img src="" alt="">
-                <figcaption></figcaption>
-            </figure>
-        </div>
-        <div>
-            <h3></h3>
-            <figure>
-                <img src="" alt="">
-                <figcaption></figcaption>
-            </figure>
-        </div>
-        <div>
-            <h3></h3>
-            <p>Number of Visits: <span id="visits"></span></p>
-        </div>
+        <!-- <hr> -->
+        <article class="grid">
+
+        </article>
     </main>
+
     <footer>
         <div id="footer-grid">
             <div id="logo">
                 <img id ="footer-logo" src="images/logo-long.png" alt="North Chamber of Commerce Logo">
             </div>
+
             <div class="footer-section">
                 <p>North Chamber of Commerce</p>
                 <p>Rua Baltazar Lopes da Silva</p>
                 <p>São Vicente, Cape Verde</p>
             </div>
+
             <div class="footer-section">
                 <p>northchamber@gmail.org</p>
                 <p>+(238) 231-2566</p>
                 <p>Location Map</p>
             </div>
         </div>
+
         <div id="footer1">
             <hr>
             <p>&copy;<span id="year1"></span> North Chamber of Commerce</p>
@@ -102,14 +76,16 @@
             <p>WDD 230 Project</p>
             <p>Last Modification: <span id="lastmodifieddate1"></span></p>
         </div>
+
         <div id="footer2">
             <hr>
             <p>&copy;<span id="year2"></span> North Chamber of Commerce | Stéphane Lima | WDD 230 Project</p> 
             <p>Last Modification: <span id="lastmodifieddate2"></span></p>
         </div>
     </footer>
+    
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/directory.js"></script>
     <!-- <script src="scripts/windchill.js"></script> -->
-    <script src="scripts/visit-count.js"></script>
 </body>
 </html>

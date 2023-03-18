@@ -114,6 +114,25 @@
         grid-column: 1/4;
     }
 
+  /*----------------------- JOIN PAGE ----------------------*/
+    #form {
+        margin: 30px auto;
+    }
+
+    form label.top input, form label.top textarea {
+        padding: 1rem;
+    }
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .list section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        /* background-color: #FCBF49; */
+    }
+    
     footer {
         padding-left: 10px;
         padding-right: 10px;
