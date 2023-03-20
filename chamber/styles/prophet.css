@@ -2,7 +2,7 @@ main {
 	margin: 15px 10px;
 }
 
-.cards {
+.grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
@@ -25,18 +25,34 @@ h2 {
 	padding-top: 30px;
 }
 
-section > img {
-	padding-bottom: 30px;
-	width: 95%;
-	max-width: 340px;
-	padding-left: 5px;
-	padding-right: 5px;
+.grid a {
+    padding-bottom: 30px;
+}
+
+img {
+	padding-top: 30px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+}
+
+.list section img {
+    display: none;
 }
 
 header, footer {
 	text-align: center;
 	background-color: #003049;
-	color: #FCBF49;
+	color: #ACBF40;
 	width: 100%;
 	padding: 15px 0;
 }
