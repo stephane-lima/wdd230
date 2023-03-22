@@ -39,6 +39,9 @@ currentYearElem2.innerHTML = getCurrentYear();
 let todaysDayElem = document.getElementById('date');
 todaysDayElem.innerHTML = today();
 
+let todaysDayElem1 = document.getElementById('date1');
+todaysDayElem1.innerHTML = today();
+
 let dayOfWeek = new Date().getDay();
 console.log(dayOfWeek);
 

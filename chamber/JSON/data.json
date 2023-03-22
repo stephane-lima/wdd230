@@ -5,7 +5,7 @@
 			"address": "Avenida 5 de Julho, Mindelo",
 			"phone": "(+238) 800 20 20",
 			"siteurl": "https://www.impar.cv",
-			"image": "images/logo-enacol2.jpg",
+			"image": "images/impar-logo3.jpg",
 			"membership": "Gold"
 		},
 		{
@@ -22,7 +22,7 @@
 			"phone": "(+238) 230 76 00",
 			"siteurl": "https://www.vivoenergy.com",
 			"image": "images/logo-enacol2.jpg",
-			"membership": "Silver"
+			"membership": "Bronze"
 		},
 		{
 			"name": "CVMovel",
@@ -30,7 +30,7 @@
 			"phone": "(+238) 262 25 09",
 			"siteurl": "https://www.cvmovel.cv",
 			"image": "images/logo-enacol2.jpg",
-			"membership": "Bronze"
+			"membership": "Silver"
 		},
 		{
 			"name": "FIC - Feira International de Cabo Verde",
@@ -46,7 +46,7 @@
 			"phone": "(+238) 260 49 20",
 			"siteurl": "https://www.bcn.cv",
 			"image": "images/logo-enacol2.jpg",
-			"membership": "Gold"
+			"membership": "Bronze"
 		},
 		{
 			"name": "Moave",
@@ -62,7 +62,7 @@
 			"phone": "(+238) 232 16 26",
 			"siteurl": "https://turiscar.cv",
 			"image": "images/logo-enacol2.jpg",
-			"membership": "Bronze"
+			"membership": "Silver"
 		},
 		{
 			"name": "Enacol",

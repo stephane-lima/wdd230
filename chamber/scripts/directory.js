@@ -1,6 +1,6 @@
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
+const display = document.querySelector(".grid");
  
 gridbutton.addEventListener("click", () => {
   display.classList.add("grid");
@@ -25,15 +25,16 @@ async function getCompanyData() {
 getCompanyData();
 
 const displayCompanies = (companies) => {
-  const cards = document.querySelector("article.grid");
+  const cards = document.querySelector("div.grid");
 
   companies.forEach((company) => {
 
-    let card = document.createElement("section");
+    let card = document.createElement("div");
     let portrait = document.createElement('img');
     let name = document.createElement('p');
     let address = document.createElement('p');
     let phone = document.createElement('p');
+    let websiteP = document.createElement('p')
     let website  = document.createElement('a');
 
     name.textContent = `${company.name}`;
@@ -41,8 +42,8 @@ const displayCompanies = (companies) => {
     portrait.setAttribute("src", company.image);
     portrait.setAttribute('alt', `${company.name} Logo`);
     // portrait.setAttribute('loading', 'lazy');
-    portrait.setAttribute('width', '180');
-    portrait.setAttribute('height', '94');
+    // portrait.setAttribute('width', '180');
+    // portrait.setAttribute('height', '94');
 
     website.setAttribute("href", company.siteurl)
     // website.textContent = `${company.siteurl}`;
@@ -56,7 +57,8 @@ const displayCompanies = (companies) => {
     card.appendChild(name)
     card.appendChild(address);
     card.appendChild(phone);
-    card.appendChild(website);
+    card.appendChild(websiteP);
+    websiteP.appendChild(website);
 
     cards.appendChild(card);
   });

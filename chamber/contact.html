@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discover Page</title>
+    <title>Contact Page</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
     <link href="styles/normalize.css" rel="stylesheet">
     <link href="styles/small.css" rel="stylesheet">
@@ -14,16 +14,17 @@
 <body>
     <p id="banner">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
     <header>
+        <!-- <a href="index.html"> -->
         <img id="site-logo" src="images/logo-long.png" alt="logo">
+        <!-- </a> -->
+        
         <h1>North</h1>
         <h2>Chamber of Commerce</h2>
         
-        <!-- <a href="https://facebook.com" target="_blank"> -->
-            <img id="facebook-logo" src="./images/facebook.png" alt="Facebook">
-        <!-- </a> -->
-        <!-- <a href="https://twitter.com" target="_blank"> -->
-            <img id="twitter-logo" src="./images/twitter.png" alt="LinkedIn">
-        <!-- </a> -->
+        <img id="facebook-logo" src="./images/facebook.png" alt="Facebook">
+
+        <img id="twitter-logo" src="./images/twitter.png" alt="LinkedIn">
+        
         <button id="menuButton">&#9776;</button>
         
         <nav id="primaryNav">
@@ -31,54 +32,64 @@
                 <li><a class="at" href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="./directory.html">Directory</a></li>
-                <li><a href="./join.html">Join</a></li>
+                <li><a href="join.html">Join</a></li>
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
         <p id="date"></p>
     </header>
-    <main id="discover">
-        <figure>
-            <img src="images/monte-verde-1.jpg" alt="Mont Verde">
-            <figcaption>Mont Verde</figcaption>
-        </figure>
-        <figure>
-            <img src="images/photo0jpg.jpg" alt="Mercado Municipal">
-            <figcaption>Mercado Municipal</figcaption>
-        </figure>
-        <figure>
-            <img src="images/palacio-do-povo.jpg" alt="Palacio do Povo">
-            <figcaption>Palacio do Povo</figcaption>
-        </figure>
-        <figure>
-            <img src="images/sao-pedro-beach-1.jpg" alt="São Pedro Beach">
-            <figcaption>São Pedro Beach</figcaption>
-        </figure>
-        <figure>
-            <img src="images/torre-de-belem.jpg" alt="Torre de Belem">
-            <figcaption>Torre de Belem</figcaption>
-        </figure>
-        <div>
-            <h3></h3>
-            <p>Number of Visits: <span id="visits"></span></p>
+
+    <main id="form">
+        <h1>Contact Us</h1>
+        <div id="contact-container">
+            <p id="headquarters">Headquarters</p>
+            <div class="contact-info">
+                <p>North Chamber of Commerce</p>
+                <p>Rua Baltazar Lopes da Silva</p>
+                <p>São Vicente, Cape Verde</p>
+            </div>
+            <div class="contact-info">
+                <p id="phone">Phone:</p>
+                <p>+(238) 231-2566</p>
+            </div>
+            <div class="contact-info">
+                <p id="email">Email:</p>
+                <p>northchamber@gmail.org</p>
+            </div>
         </div>
+
+        <p id="form-title">Contact Form</p>
+        
+        <form method="get" action="thankyou.html">
+            <label class="top">First Name<span class="color">*</span><input type="text" name="fname" required></label>
+            <label class="top">Last Name<span class="color">*</span><input type="text" name="lname" required></label>
+            <label class="top">Email<span class="color">*</span><input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label class="top">Cell Phone Number<span class="color">*</span><input type="tel" name="phone" required></label>
+
+            <label class="top">Comments/Questions<span class="color">*</span> <textarea></textarea></label>
+            <label><input type="submit" value="Contact Chamber of Commerce" class="submitBtn"></label>
+        </form>
     </main>
+    
     <footer>
         <div id="footer-grid">
             <div id="logo">
                 <img id ="footer-logo" src="images/logo-long.png" alt="North Chamber of Commerce Logo">
             </div>
+
             <div class="footer-section">
                 <p>North Chamber of Commerce</p>
                 <p>Rua Baltazar Lopes da Silva</p>
                 <p>São Vicente, Cape Verde</p>
             </div>
+
             <div class="footer-section">
                 <p>northchamber@gmail.org</p>
                 <p>+(238) 231-2566</p>
                 <p>Location Map</p>
             </div>
         </div>
+
         <div id="footer1">
             <hr>
             <p>&copy;<span id="year1"></span> North Chamber of Commerce</p>
@@ -86,14 +97,15 @@
             <p>WDD 230 Project</p>
             <p>Last Modification: <span id="lastmodifieddate1"></span></p>
         </div>
+
         <div id="footer2">
             <hr>
             <p>&copy;<span id="year2"></span> North Chamber of Commerce | Stéphane Lima | WDD 230 Project</p> 
             <p>Last Modification: <span id="lastmodifieddate2"></span></p>
         </div>
     </footer>
+    
     <script src="scripts/scripts.js"></script>
     <!-- <script src="scripts/windchill.js"></script> -->
-    <script src="scripts/visit-count.js"></script>
 </body>
 </html>
