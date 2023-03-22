@@ -49,7 +49,7 @@ const populateSpotlight = (companies) => {
         slImg.setAttribute("alt", `Picture of ${details.name}`);
         // slImg.setAttribute("loading", "lazy");
         // slImg.setAttribute("width", 100);
-        // slImg.setAttribute("height", 75);
+        //slImg.setAttribute("height", 94);
 
         slContact.textContent = `${details.phone}`
         slAddress.textContent = `${details.address}`;

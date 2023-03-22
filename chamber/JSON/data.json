@@ -13,7 +13,7 @@
 			"address": "Rua Argelia, Mindelo",
 			"phone": "(+238) 230 01 71",
 			"siteurl": "https://www.urgimed.cv",
-			"image": "images/logo-enacol2.jpg",
+			"image": "images/urgimed-logo-1.jpg",
 			"membership": "Bronze"
 		},
 		{
@@ -21,7 +21,7 @@
 			"address": "Av. Amilcar Cabral, Mindelo",
 			"phone": "(+238) 230 76 00",
 			"siteurl": "https://www.vivoenergy.com",
-			"image": "images/logo-enacol2.jpg",
+			"image": "images/vivo-energy-2.jpg",
 			"membership": "Bronze"
 		},
 		{
@@ -29,23 +29,23 @@
 			"address": "Rua de Lisboa, Mindelo",
 			"phone": "(+238) 262 25 09",
 			"siteurl": "https://www.cvmovel.cv",
-			"image": "images/logo-enacol2.jpg",
+			"image": "images/cvmovel-logo.jpg",
 			"membership": "Silver"
 		},
 		{
-			"name": "FIC - Feira International de Cabo Verde",
+			"name": "FICASE",
 			"address": "Rua Angola 10 RC, Mindelo",
 			"phone": "(+238) 232 18 22",
-			"siteurl": "https://www.fic.cv",
-			"image": "images/logo-enacol2.jpg",
+			"siteurl": "https://www.ficase.cv",
+			"image": "images/ficase-logo.jpg",
 			"membership": "Non-profit"
 		},
 		{
-			"name": "BCN - Banco Cabo Verdiano de Negocios",
-			"address": "Rua N° 1, Monte Sossego, Mindelo",
+			"name": "Frescomar - Ubago Group CV",
+			"address": "Zona Industrial do Lazareto, Mindelo",
 			"phone": "(+238) 260 49 20",
-			"siteurl": "https://www.bcn.cv",
-			"image": "images/logo-enacol2.jpg",
+			"siteurl": "https://www.facebook.com/frescomarubagogroup",
+			"image": "images/frescomar-logo.jpg",
 			"membership": "Bronze"
 		},
 		{
@@ -53,15 +53,15 @@
 			"address": "Avenida Marginal, Mindelo",
 			"phone": "(+238) 230 31 00",
 			"siteurl": "https://www.moave.cv",
-			"image": "images/logo-enacol2.jpg",
+			"image": "images/logo-moave-2.jpg",
 			"membership": "Silver"
 		},
 		{
-			"name": "Turiscar",
+			"name": "Cabeólica",
 			"address": "Rua Renato Cardoso, Mindelo",
 			"phone": "(+238) 232 16 26",
-			"siteurl": "https://turiscar.cv",
-			"image": "images/logo-enacol2.jpg",
+			"siteurl": "https://cabeolica.com",
+			"image": "images/cabeolica-logo.jpg",
 			"membership": "Silver"
 		},
 		{

@@ -35,25 +35,51 @@ header h2 {
 }
 
 
-header #facebook-logo {
+/* header #facebook-logo {
     grid-column: 11 / 13;
     object-fit: cover;
     width: 100%;
     align-self: center;
     border-radius: 200px;
+} */
 
+header #facebook-logo {
+    grid-column: 11 / 13;
+    /* margin-top: 7px; */
 }
 
-header #twitter-logo {
+#facebook-logo1 {
+    object-fit: cover;
+    width: 100%;
+    align-self: center;
+    border-radius: 200px;
+    margin-top: 10px;
+    /* margin-left: 7px; */
+}
+
+/* header #twitter-logo {
     grid-column: 13 / 15;
     object-fit: cover;
     width: 100%;
     align-self: center;
     border-radius: 20px;
+} */
 
+header #twitter-logo {
+    grid-column: 13 / 15;
+    /* margin-top: 7px; */
 }
 
-header #site-logo {
+#twitter-logo1 {
+    object-fit: cover;
+    width: 100%;
+    align-self: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    /* margin-left: 7px; */
+}
+
+/* #site-logo {
     grid-column: 1 / 5;
     grid-row: 1 / 4;
     border-radius: 50%;
@@ -61,6 +87,21 @@ header #site-logo {
     width: 80%;
     align-self: center;
     margin-left: 10px;
+} */
+
+#site-logo {
+    grid-column: 1 / 5;
+    grid-row: 1 / 4;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#site-logo img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100%;
+    align-self: center;
+    justify-self: center;
 }
 
 header button {
@@ -262,9 +303,15 @@ main div p {
     margin-top: 0;
 }
 
-.sl-card > img {
-    width: 100px;
-    height: 75px;
+/* .sl-card > img {
+    width: 100%;
+    height: 94px;
+} */
+
+.sl-logo {
+    /* max-width: auto; */
+    height: 94px;
+    object-fit: contain;
 }
 
 #weather-icon {
@@ -277,17 +324,22 @@ main div p {
     /* margin-top: -50px; */
     /* margin-bottom: -50px; */
     margin-top: -20px;
+    margin-bottom: -20px;
 }
 #windchill-grid p {
     align-self: center;
     text-align: left;
     /* padding: 0; */
 }
-#windchill-grid figure {
+#windchill-grid figure img {
     align-self: center;
     text-align: right;
     padding: 0;
+    /* width: 50px; */
 }
+
+
+
 
 /* ------------------------------ DISCOVER PAGE -------------------------- */
 
@@ -313,11 +365,22 @@ main div p {
 }
 
 #discover figcaption {
-    padding: 10px;
+    padding: 15px;
     font-size: 18px;
     margin-top: -5px;
     background-color: #FCBF49;
     color: #003049;
+}
+
+#statistic-information {
+    background-color: #FCBF49;
+    color: #003049;
+    font-size: 19px;
+    padding: 15px;
+}
+
+#statistic-information h1, #number-visits {
+    text-align: center;
 }
 
 /* ------------------------------ JOIN PAGE -------------------------- */
@@ -370,12 +433,14 @@ form label.top input, form label.top textarea {
     font-size: 1rem;
     border: solid 2px #2691d9;
     border-radius: 4px;
-    padding: 0rem;
-    color: #555;
+    padding: 0.5rem;
+    /* color: #555; */
+    color: black;
     width: 100%;
     max-width: 20rem;
     height: 44px;
     background-color: rgba(0,0,0,0.1);
+    font-size: 18px;
 }
 
 form label.top textarea {
@@ -507,7 +572,7 @@ form label.top input:focus:invalid {
 }
 
 .grid div > img {
-    width: 230px;
+    /* width: 230px; */
     height: 94px;
 }
 
@@ -611,4 +676,9 @@ footer {
 
 #footer2 {
     display: none;
+}
+
+#location {
+    color: #FCBF49;
+    text-decoration: none;
 }

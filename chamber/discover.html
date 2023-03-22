@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Whether you are a visitor or resident you will find an abundance of information on this website to help discover the wonders of São Vicente">
     <title>Discover Page</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
     <link href="styles/normalize.css" rel="stylesheet">
@@ -14,16 +15,28 @@
 <body>
     <p id="banner">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
     <header>
-        <img id="site-logo" src="images/logo-long.png" alt="logo">
+        
+        <div id="site-logo">
+            <a href="index.html">
+                <img src="images/logo-long.png" alt="logo">
+            </a>
+        </div>
+        
         <h1>North</h1>
         <h2>Chamber of Commerce</h2>
         
-        <!-- <a href="https://facebook.com" target="_blank"> -->
-            <img id="facebook-logo" src="./images/facebook.png" alt="Facebook">
-        <!-- </a> -->
-        <!-- <a href="https://twitter.com" target="_blank"> -->
-            <img id="twitter-logo" src="./images/twitter.png" alt="LinkedIn">
-        <!-- </a> -->
+        <div id="facebook-logo">
+            <a href="https://www.facebook.com" target="_blank">
+                <img id="facebook-logo1" src="./images/facebook.png" alt="Facebook">
+            </a>
+        </div>
+        
+        <div id="twitter-logo">
+            <a href="https://www.twitter.com" target="_blank">
+                <img id="twitter-logo1" src="./images/twitter.png" alt="LinkedIn">
+            </a>
+        </div>
+        
         <button id="menuButton">&#9776;</button>
         
         <nav id="primaryNav">
@@ -37,30 +50,41 @@
         </nav>
         <p id="date"></p>
     </header>
+
     <main id="discover">
         <figure>
-            <img src="images/monte-verde-1.jpg" alt="Mont Verde">
+            <img src="images/placeholder.jpg" data-src="images/monte-verde-1.jpg" alt="Mont Verde">
             <figcaption>Monte Verde is a mountain in the eastern part of the island of Sâo Vicente. It is the island's highest point. All species and communities of endemic flora of São Vicente are concentrated in Monte Verde.</figcaption>
         </figure>
         <figure>
-            <img src="images/photo0jpg.jpg" alt="Mercado Municipal">
+            <img src="images/placeholder.jpg" data-src="images/photo0jpg.jpg" alt="Mercado Municipal">
             <figcaption>This is the city's indoor market. Interesting to walk around and to see the many different local products as well as herbs sold here</figcaption>
         </figure>
         <figure>
-            <img src="images/palacio-do-povo.jpg" alt="Palacio do Povo">
+            <img src="images/placeholder.jpg" data-src="images/palacio-do-povo.jpg" alt="Palacio do Povo">
             <figcaption>On Cesaria Évora Museum, it is possible to find a large part of her discography, clothing, personal objects, photographs and videos.</figcaption>
         </figure>
         <figure>
-            <img src="images/sao-pedro-beach-1.jpg" alt="São Pedro Beach">
+            <img src="images/placeholder.jpg" data-src="images/sao-pedro-beach-1.jpg" alt="São Pedro Beach">
             <figcaption>São Pedro Beach is a stunning white sand beach with crystal clear turquoise waters. During low tide, visitors can explore the fascinating rock formation that line the beach while during high tide they can take part in some exciting watersports such as kitesurfing or windsurfing.</figcaption>
         </figure>
         <figure>
-            <img src="images/torre-de-belem.jpg" alt="Torre de Belem">
+            <img src="images/placeholder.jpg" data-src="images/torre-de-belem.jpg" alt="Torre de Belem">
             <figcaption>Mindelo's Museum of the sea is located in the repurposed Torre de Mindelo (which was modeled after Lisbon's Torre de Belem). The museum chronicles the rich maritime history of nothern Cape Verde. Featured exhibits include themes such as whaling, warships, migration, biodiversity, aquatic archeology and even music.</figcaption>
         </figure>
-        <div>
-            <h3></h3>
-            <p>Number of Visits: <span id="visits"></span></p>
+        <div id="statistic-information">
+            <h1>São Vicente</h1>
+            <p><strong>Location:</strong> Atlantic Ocean</p>
+            <p><strong>Coordinates:</strong> 16º51'N 24º58'W</p>
+            <p><strong>Area:</strong> 226.7 sq Km (87.5 sq mi)</p>
+            <p><strong>Length:</strong> 24.3 Km (15.1 sq mi)</p>
+            <p><strong>Width:</strong> 16.3 Km (10.13 sq mi)</p>
+            <p><strong>Highest Elevation:</strong> 774 m (2441 ft)</p>
+            <p><strong>Highest Point:</strong> Monte Verde</p>
+            <p><strong>Population:</strong> 100,000 (2020)</p>
+            <p><strong>Population Density:</strong> 357/sq Km (925/sq mi)</p>
+
+            <p id="number-visits"><strong>Number of Visits:</strong> <span id="visits"></span></p>
         </div>
     </main>
     <footer>
@@ -76,7 +100,7 @@
             <div class="footer-section">
                 <p>northchamber@gmail.org</p>
                 <p>+(238) 231-2566</p>
-                <p>Location Map</p>
+                <p><a id="location" href="https://goo.gl/maps/6fCZF67aRPu9UQgG8" target="_blank">Location Map</a></p>
             </div>
         </div>
         <div id="footer1">
@@ -93,7 +117,7 @@
         </div>
     </footer>
     <script src="scripts/scripts.js"></script>
-    <!-- <script src="scripts/windchill.js"></script> -->
+    <script src="scripts/lazy-loading.js"></script>
     <script src="scripts/visit-count.js"></script>
 </body>
 </html>
